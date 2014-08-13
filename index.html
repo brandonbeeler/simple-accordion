@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Accordion</title>
+	<link rel="stylesheet" href="simple-accordion.css">
+</head>
+<body>
+	<h1>This is a test</h1>
+
+	<div class="simple-accordion">
+		<div id='test1' class="accordion-group collapsed">
+			<div class='group-header'>Test Header</div>
+
+		 	<div class="accordion-sub-group">
+		    	<ul class="accordion-sub-inner">
+					<li class="accordion-item"><a href="#">Test Link</a></li>
+					<li class="accordion-item"><a href="#">Test Link</a></li>
+					<li class="accordion-item"><a href="#">Test Link</a></li>
+			    </ul>
+			</div>
+		</div>
+
+		<div id='test2' class="accordion-group collapsed">
+			<div class='group-header'>Test Header</div>
+
+		 	<div class="accordion-sub-group">
+		    	<ul class="accordion-sub-inner">
+					<li class="accordion-item"><a href="#">Test Link</a></li>
+					<li class="accordion-item"><a href="#">Test Link</a></li>
+					<li class="accordion-item"><a href="#">Test Link</a></li>
+			    </ul>
+			</div>
+		</div>
+
+		<div id='test3' class="accordion-group collapsed">
+			<div class='group-header'>Test Header</div>
+
+		 	<div class="accordion-sub-group">
+		    	<ul class="accordion-sub-inner">
+					<li class="accordion-item"><a href="#">Test Link</a></li>
+					<li class="accordion-item"><a href="#">Test Link</a></li>
+					<li class="accordion-item"><a href="#">Test Link</a></li>
+			    </ul>
+			</div>
+		</div>
+	</div>
+	
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src='simple-accordion.js'></script>
+
+	<script>
+		// initialize the accordion
+		new SimpleAccordion('.simple-accordion');
+	</script>
+</body>
+</html>

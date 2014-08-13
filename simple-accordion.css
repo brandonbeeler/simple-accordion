@@ -1,0 +1,52 @@
+.simple-accordion {
+  border: 1px solid black;
+  border-bottom: 0px;
+}
+.simple-accordion .accordion-group .group-header {
+  cursor: pointer;
+}
+.simple-accordion .accordion-group .group-header {
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 25px 67px 25px 20px;
+  margin-bottom: 0;
+  border-bottom: 1px solid black;
+  background: url(accordion-icons.png) right -74px no-repeat;
+}
+.simple-accordion .accordion-group.collapsed .group-header {
+  background-position: right 25px;
+}
+.simple-accordion .accordion-group.collapsed .accordion-sub-group {
+  display: none;
+}
+.simple-accordion .accordion-sub-group .accordion-sub-inner { margin: 0; padding: 0;}
+.simple-accordion .accordion-sub-group.collapsed .accordion-sub-inner {
+  display: none;
+}
+.simple-accordion .accordion-sub-group .sub-group-header {
+  padding: 25px 20px;
+  color: black;
+  font-weight: 700;
+  font-size: 21px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.simple-accordion .accordion-sub-group .sub-group-header:hover {
+  background: #e4e0db;
+}
+.simple-accordion .accordion-sub-group .accordion-sub-inner .accordion-item {
+  background: #f8f8f8;
+  border-bottom: 1px solid black;
+  padding: 25px 20px;
+  margin: 0;
+  color: black;
+  font-size: 18px;
+  display: block;
+  cursor: pointer;
+}
+.simple-accordion .accordion-sub-group .accordion-sub-inner .accordion-item:hover {
+  text-decoration: underline;
+  background: #eeeeee;
+}
