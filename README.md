@@ -1,7 +1,7 @@
 Simple Accordion
 ================
 
-Creates a simple 2-level expandable accordion.
+Creates an EXTREMELY simple 2-level expandable accordion.
 
 
 Getting Started
