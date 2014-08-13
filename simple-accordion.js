@@ -19,8 +19,7 @@ SimpleAccordion.prototype = {
             var $group = $(this).parent();
 
             // close other groups before opening a new one
-            // $(".accordion-group").not('.collapsed').not('#' + $group.attr('id')).addClass('collapsed');
-            console.log($group);
+            $(".accordion-group").not('.collapsed').not('#' + $group.attr('id')).addClass('collapsed');
             $group.toggleClass('collapsed');
         });
     }
