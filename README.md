@@ -1,7 +1,7 @@
 Simple Accordion
 ================
 
-Creates an EXTREMELY simple 2-level expandable accordion.
+Creates an EXTREMELY simple 2-level expandable accordion. Example can be found here: http://www.lennoxcommercial.com/landing/energence-ultra/#resources
 
 
 Getting Started
